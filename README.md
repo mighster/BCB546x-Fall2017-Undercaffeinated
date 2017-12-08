@@ -12,18 +12,20 @@ __Characterization of Disease Resistance Loci in the USDA Soybean Germplasm Coll
 John 
 * Collected all of the genotypic and phenotypic data from USDA GRIN and Soybase. 
 * Initialization of the R code. 
+
 Kevin 
 * Used Soybase for candidate gene identification. 
 * Created Presentation.
+
 Colton 
 * Data imputation using Beagle.
 * For loop to pare down the code.
+
 Benjamin 
 * Comparison of results.
 * Github and Markdown documentation. 
 
-
-
+## Description on naming 
 
 All of the disease were abbreviated to simplify the file names during the analysis. Below we have added a list of all of the disease abbreviations. In all of files that contain abbrevations, the naming follows the disease abbreviation followed by the test number from the USDA.  
 
