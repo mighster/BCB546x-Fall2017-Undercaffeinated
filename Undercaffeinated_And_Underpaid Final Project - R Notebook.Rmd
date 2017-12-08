@@ -45,13 +45,13 @@ myGM$chr <- as.numeric(substr(myGM$chr,3,4))
 ```
 Load names of phenotypes and makes a directory for GWAS output.
 ```{r}
-myYs <- list.files("E:/BCB546X-Fall2017_Undercaffeinated_And_Underpaid/Data/Phenotype_Data") 
-results_dir <- "E:/BCB546X-Fall2017_Undercaffeinated_And_Underpaid/Results"
+myYs <- list.files("E:/BCB546X-Fall2017_Undercaffeinated_And_Underpaid/Phenotype_Files/") 
+results_dir <- "E:/BCB546X-Fall2017_Undercaffeinated_And_Underpaid/Results/"
 ```
 Run GWAS on all traits with for loop.
 ```{r}
 for (i in 1:length(myYs)) {
-  setwd("E:/BCB546X-Fall2017_Undercaffeinated_And_Underpaid/Data/Phenotype_Data/") # set directory where the phenotype files are located
+  setwd("E:/BCB546X-Fall2017_Undercaffeinated_And_Underpaid/Phenotype_Files/") # set directory where the phenotype files are located
   Y <- read.csv(file = myYs[i]) # read in next set of trait phenotypes
   y <- colnames(Y)[2] # obtain the name of the trait. All files have phenotypes in second column (starting from 1, not 0)
   line = Y[names(Y) %in% c('acid', y)] # obtain list of acession identifiers found in the phenotype file
@@ -71,7 +71,7 @@ for (i in 1:length(myYs)) {
                    SNP.MAF = 0.05) # regular MLM with no compression
 }
 ```
-Complies all of the significant SNPs for all traits.
+Complies all of the significant SNPs for all traits.  Runs on personal computer, can modify working directory to run elsewhere.
 ```{r}
 setwd("/Users/jmshook/Desktop/Beagle GWAS/Dx")
 files <- list.files(pattern = "\\.GWAS.Results.csv$", recursive = TRUE)
