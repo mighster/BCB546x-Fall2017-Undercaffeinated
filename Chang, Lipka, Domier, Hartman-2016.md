@@ -1,6 +1,6 @@
 # Undercaffeinated And Underpaid Pipeline Documentation 
 
-###Background Information
+##Background Information
 
 The paper we are developing and deploy a pipeline for is [Characterization of Disease Resistance Loci in the USDA Soybean Germplasm Collection Using Genome-Wide Association Studies](https://doi.org/10.1094/PHYTO-01-16-0042-FI). 
 
