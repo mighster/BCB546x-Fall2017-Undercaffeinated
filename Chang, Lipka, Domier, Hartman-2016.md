@@ -56,7 +56,7 @@ There were some races of diseases we didn't run a GWAS, due to small population 
 
 ### Genotypic Data Disclaimer
 
-The genotypic data was not added to Github due to the file size. It can be downloaded from: [Soybase](soybase.org).
+The genotypic data was not added to Github due to the file size. It can be downloaded from:(soybase.org).
 
 
 
