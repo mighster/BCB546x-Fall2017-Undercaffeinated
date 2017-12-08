@@ -55,7 +55,7 @@ Below is a list of all of the disease abbreviations:
 * SMVG6 - Soybean Mosaic Virus Strain G6
 * SMVG7 - Soybean Mosaic Virus Strain G7
 
-##Phenotype Files
+## Phenotype Files
 
 The Phenotype Files folder contains all of the files for data analysis. The disease abbreviations for the phenotype files are listed above.  
 
@@ -160,13 +160,11 @@ Below is a list of the __Phenotype__ files:
 * pmv.csv
 * saltreact.csv
 
-
-
-##Results
+## Results
 
 The Results folder contains all of the results from GWAS analysis. The disease abbreviations for the results files are listed above. 
 
-Below is a list of all of this __Result__ files:
+Below is a list of all of this __Results__ files:
 
 * GAPIT..CHLOROSIS.GWAS.Results.csv
 * GAPIT..Fe026.GWAS.Results.csv
@@ -268,7 +266,6 @@ Below is a list of all of this __Result__ files:
 ## Manhattan Plots
 
 The Manhattan Plots folder contains all of the Mahattan plots from GWAS analysis. The disease abbreviations for the files are listed above. 
-
 
 Here is a list of the __Mahattan Plots__:
 
