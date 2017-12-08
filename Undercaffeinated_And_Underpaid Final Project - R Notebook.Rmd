@@ -73,7 +73,7 @@ for (i in 1:length(myYs)) {
 ```
 Complies all of the significant SNPs for all traits.  Runs on personal computer, can modify working directory to run elsewhere.
 ```{r}
-setwd("/Users/jmshook/Desktop/Beagle GWAS/Dx")
+setwd("E:/BCB546X-Fall2017_Undercaffeinated_And_Underpaid/Dx")
 files <- list.files(pattern = "\\.GWAS.Results.csv$", recursive = TRUE)
 data2=lapply(files, read.table, header=T, sep=",")
 for (i in 1:length(data2)){data2[[i]]<-cbind(data2[[i]],files[i])}
