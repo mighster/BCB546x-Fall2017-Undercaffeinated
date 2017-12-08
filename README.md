@@ -22,7 +22,7 @@ Below is a list of all of the disease abbreviations:
 * PMV - Peanut Mottle Virus
 * FE026 - Frogeye Leaf Spot Rating 0-6 
 * FE2 - Frogeye Leaf Spot Race 2
-* FE32Perc - Frogeye Leaf Spot Percentage 1/32 inch or larger in percentage
+* FE32Perc - Frogeye Leaf Spot Percentage - 1/32 inch or larger
 * NSC - Northern Stem Canker
 * PPR1 - Phytophthora Root and Stem Rot Race 1
 * PPR2 - Phytophthora Root and Stem Rot Race 2
