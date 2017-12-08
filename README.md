@@ -38,7 +38,7 @@ Below is a list of all of the disease abbreviations:
 * PPR30T - Phytophthora Root and Stem Rot Race 30T
 * PYU - Pythium Root Rot
 * RUST - Soybean Rust
-* SALT - To
+* SALT - Salt Tolerance
 * SCN1 - Soybean Cyst Nematode Race 1
 * SCN1FI - Soybean Cyst Nematode Race 1 Female Index
 * SCN2 - Soybean Cyst Nematode Race 2
