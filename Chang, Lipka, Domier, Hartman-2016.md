@@ -10,7 +10,7 @@ The diseases that were analyzed in this study were as follows: Bacterial Pustule
 
 The author conducted a GWAS on all of the traits above using a package called GAPIT within R. The GWAS was conducted using mixed linear model. The significant SNPs were then used to look for potential candidate genes using SoyBase. 
 
-This would allow for breeding of varieties with improve disease resistance.  
+This would allow for a comprehensive understanding of disease resistance.  
 
 ## Data Workflow Pipeline
 
