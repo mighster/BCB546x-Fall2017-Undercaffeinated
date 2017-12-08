@@ -8,6 +8,22 @@ __Signifcant SNPs GWAS.xlsx__ - Contains all of the signifcant SNPs across all d
 
 __Characterization of Disease Resistance Loci in the USDA Soybean Germplasm Collection using GWAS.pptx__ - Contains a presentation of background of paper used for analysis, workflow, comparison of results, and success and failures of the project. 
 
+## Description of workflow for the group
+John 
+* Collected all of the genotypic and phenotypic data from USDA GRIN and Soybase. 
+* Initialization of the R code. 
+Kevin 
+* Used Soybase for candidate gene identification. 
+* Created Presentation.
+Colton 
+* Data imputation using Beagle.
+* For loop to pare down the code.
+Benjamin 
+* Comparison of results.
+* Github and Markdown documentation. 
+
+
+
 
 All of the disease were abbreviated to simplify the file names during the analysis. Below we have added a list of all of the disease abbreviations. In all of files that contain abbrevations, the naming follows the disease abbreviation followed by the test number from the USDA.  
 
