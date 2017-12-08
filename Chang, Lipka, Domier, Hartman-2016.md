@@ -2,15 +2,17 @@
 
 ###Background Information
 
-The paper we are developing and deploy a pipeline for is Characterization of Disease Resistance Loci in the USDA Soybean Germplasm Collection Using Genome-Wide Association Studies. 
+The paper we are developing and deploy a pipeline for is [Characterization of Disease Resistance Loci in the USDA Soybean Germplasm Collection Using Genome-Wide Association Studies](https://doi.org/10.1094/PHYTO-01-16-0042-FI). 
 
-Many different pathogens infect soybean. Pathogens can cause large economic losses for farmers and producers. The goal of this paper was to identify QTL for disease resistance using the USDA Soybean Germplasm Collection. The authors used publically available phenotype and genotype data to conduct the GWAS.  
+Many different pathogens infect soybean. Pathogens can cause large economic losses for farmers and producers. The goal of this paper was to identify SNPs and candidate genes for disease resistance using the USDA Soybean Germplasm Collection. The authors used publically available phenotype and genotype data to conduct the GWAS.  
 
-The diseases that were analyzed in this study were as follows: Bacterial Pustule, Brown Stem Rot, Diaporthe Stem Canker, Phytophthora Root and Stem Rot, Pythium, Sudden Death Syndrome, Soybean Rust, Reniform Nematode, Soybean Cyst Nematode, Bean Pod Mottle Virus, Peanut Mottle Virus, and Soybean Mosaic Virus.
+The diseases that were analyzed in this study were as follows: Bacterial Pustule, Brown Stem Rot, Diaporthe Stem Canker, Frogeye Leaf Spot, Phytophthora Root and Stem Rot, Pythium, Sudden Death Syndrome, Soybean Rust, Reniform Nematode, Soybean Cyst Nematode, Bean Pod Mottle Virus, Peanut Mottle Virus, and Soybean Mosaic Virus.
+
+The author conducted a GWAS on all of the traits above using a package called GAPIT within R. The GWAS was conducted using mixed linear model. The significant SNPs were then used to look for potential candidate genes using SoyBase. 
 
 This would allow for breeding of varieties with improve disease resistance.  
 
-## Data Pipeline
+## Data Workflow Pipeline
 
 ###Genotypic marker selection
 
@@ -54,7 +56,7 @@ There were some races of diseases we didn't run a GWAS, due to small population 
 
 ### Genotypic Data Disclaimer
 
-The genotypic data was not added to Github due to the file size. 
+The genotypic data was not added to Github due to the file size. It can be downloaded from: 
 
 
 
